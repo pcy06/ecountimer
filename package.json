@@ -1,0 +1,28 @@
+{
+  "name": "ecountimer",
+  "version": "1.0.0",
+  "description": "Ecount ERP에서 출근 기록을 가져와 퇴근까지 남은 시간을 알려주는 타이머",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "PARK CHANYOUNG",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/pako": "^2.0.3",
+    "@types/superagent": "^8.1.9",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "http-cookie-agent": "^6.0.8",
+    "pako": "^2.1.0",
+    "superagent": "^10.1.1",
+    "tough-cookie": "^5.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
